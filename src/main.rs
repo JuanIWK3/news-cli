@@ -31,7 +31,7 @@ fn render_articles(articles: &Articles) {
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let url = "https://newsapi.org/v2/top-headlines?country=br&apiKey=9b95c40e64f24acea565aa175b6efdce";
+    let url = "https://newsapi.org/v2/top-headlines?country=br&apiKey=9b95c40e64f24acea565aa175b6efdce&pageSize=4";
     let articles = get_articles(url)?;
     render_articles(&articles);
 
