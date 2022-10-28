@@ -1,4 +1,4 @@
-# NEW CLI
+# News CLI
 
 ### How to run
 
